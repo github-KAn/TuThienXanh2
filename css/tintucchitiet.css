@@ -1,0 +1,101 @@
+.body {
+    display: flex;
+    margin: 50px 50px 50px 100px;
+}
+.baiviet {
+    width: 75%;
+    border-left: 5px solid #60B847 ;
+    border-right: 5px solid #60B847;
+}
+.goiy {
+    width: 25%;
+}
+.title {
+    font-size: 32px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 30px;
+    color: black;
+    font-weight: bolder;
+}
+.abstract {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 30px;
+    font-weight: 600;
+}
+.detail {
+    margin: 30px 40px;
+    font-size: 20px;
+    margin-right: 30px;
+    text-align: justify;
+}
+.detail__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Gioi y */
+.goiy {
+    margin: 30px;
+}
+.tinlienquan {
+    margin: 0;
+}
+.goiy__title {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    color: #7B7777;
+}
+.tin {
+    margin-bottom: 15px;
+    padding: 30px;
+    background-color: #D9D9D9;
+    /* background-image: url("https://tse1.mm.bing.net/th?id=OIP.Ln6Y7Uy_2VEE-BgU1_GT5QHaEK&pid=Api&P=0&h=180"); */
+}
+.tin1 {
+    background-image: url("/img/tintuc/traotangxelan.jpg");
+}
+.tin2 {
+    background-image: url("/img/tintuc/LuMuongLa.jpg");
+}
+.tin3 {
+    background-image: url("/img/tintuc/chungtayhuong.jpg");
+}
+.tin4 {
+    background-image: url("/img/tintuc/luminechung.jpg");    
+}
+.tin5 {
+    background-image: url("/img/tintuc/mualudondap.jpg");
+}
+.tin6 {
+    background-image: url("/img/tintuc/mualulaichau.jpg");  
+}
+.tin__title {
+    font-size: 20px;
+    margin: 0;
+    color: white;
+    text-align: justify;
+}
+.tin__img{
+    width: max-content;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin: 8px 0px;
+}
+.tin__abstract {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+}
+.moinhat__title {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    color: #7B7777;
+}
